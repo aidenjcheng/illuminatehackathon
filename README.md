@@ -5,7 +5,7 @@ HOW TO RUN THE WEBSITE:
    "npm i vite@latest" (make sure you're using a node terminal)
 2. RUN THE WEBSITE:
    "npm run dev"
-
+3. Click on the link and run the localhost website
 Creators: Kevin X + Aiden C, both in HS.
 
 Description:
