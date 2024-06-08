@@ -8,11 +8,25 @@ HOW TO RUN THE WEBSITE:
 
 Creators: Kevin X + Aiden C, both in HS. 
 
+
 Description:
-This project is a brain tumor classifier. Upload an MRI scan of the brain and the website will return the result along with the confidence. The uploaded scan should be of 1 brain. Example uploads: 
+Cerebria is a brain tumor classifier. Upload an MRI scan of the brain and the website will return the result along with the confidence. The uploaded scan should include one brain MRI scan. Example uploads: 
 https://tinyurl.com/4vkkmswz
 https://tinyurl.com/ycy6jx5t
 
+
+It is an advanced AI-powered health tool. It is built around a Convolutional Neural Network (CNN) API, utilizing the ResNet50 architecture, and has been trained on a comprehensive dataset of over 20,000 images. Cerebria provides cutting-edge solutions for brain tumor detection by leveraging state-of-the-art technology.
+
+Cerebria...
+- Utilizes the ResNet50 architecture, a state-of-the-art convolutional neural network (CNN) fine-tuned for detecting and classifying brain tumors with high accuracy
+
+- Uses sophisticated image preprocessing steps like resizing, center cropping, and normalization to increase the model's accuracy in recognizing and classifying brain tumors
+
+- Differentiates between various tumor types (Normal, Glioma, Meningioma, Pituitary) and provides confidence scores for each diagnosis, offering reliable and transparent responses
+
+- Features a Flask-based backend with a responsive, scalable API that handles image uploads and returns real-time predictions through an (extremely) user-friendly interface.
+
+- Implements CORS policy to securely manage requests from various origins, ensuring reliable access to the API from different client-side applications.
 
 
 *This entire project was programmed during the allotted time frame of the hackathon*
