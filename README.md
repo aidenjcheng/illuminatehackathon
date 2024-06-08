@@ -8,6 +8,8 @@ HOW TO RUN THE WEBSITE:
 3. Click on the link and run the localhost website
 Creators: Kevin X + Aiden C, both in HS.
 
+
+Goal: Make healthcare more accessible
 Description:
 Cerebria is a brain tumor classifier. Upload an MRI scan of the brain and the website will return the result along with the confidence. The uploaded scan should include one brain MRI scan. Example uploads:
 https://tinyurl.com/4vkkmswz
