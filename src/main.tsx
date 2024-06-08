@@ -1,4 +1,5 @@
 import React from "react";
+import { createRoot } from "react-dom/client";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import ShinyText from "./shinytext.tsx";
@@ -16,10 +17,5 @@ if (rootElement) {
   );
 }
 
-if (aibubbleElement) {
-  ReactDOM.createRoot(aibubbleElement).render(
-    <React.StrictMode>
-      <ShinyText />
-    </React.StrictMode>
-  );
-}
+const root = createRoot(aibubbleElement!);
+root.render(<ShinyText />);

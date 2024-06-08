@@ -1,6 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
-import AnimatedGradientText from "@/components/magicui/animated-shiny-text";
+import AnimatedGradientText from "./components/magicui/animated-shiny-text";
 
 const ShinyText = () => {
   return (
