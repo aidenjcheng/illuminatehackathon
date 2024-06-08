@@ -50,7 +50,7 @@ The actual Machine Learning model was developed with google colab. I took inspir
 
 Tools we used/tech stack:
 We used Render.com to host the API service. 
-Tailwind, GSAP for the frontend 
+Tailwind, GSAP for the frontend, 
 Python Flask for the backend 
 
 Sources used:
