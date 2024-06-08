@@ -49,14 +49,14 @@ The backend repository (responsible for making the API call): https://github.com
 The actual Machine Learning model was developed with google colab. I took inspiration from a previous notebook and modified the code to increase the # of classes and improve the accuracy. Here is a copy of the google colab project: https://github.com/ephemeralwx/mlmodel
 
 Tools we used/tech stack:
-We used Render.com to host the API service.
-Tailwind, GSAP for the frontend
-Python Flask for the backend
+We used Render.com to host the API service. 
+Tailwind, GSAP for the frontend 
+Python Flask for the backend 
 
 Sources used:
-GSAP Documentation
-Flask Documentation
-Kaggle
+GSAP Documentation | 
+Flask Documentation |
+Kaggle 
 
 Dropbox link (videos and photos during the hackathon)
 https://www.dropbox.com/scl/fo/lep8jtcj4ef1nq2ukxc4s/AFV6d6QtjnQz5h4GoOt6w3Q?rlkey=d5nroep5ozblwox7tuh5s8gbn&st=v50sip2z&dl=0
