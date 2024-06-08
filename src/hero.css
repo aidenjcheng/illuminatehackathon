@@ -1,0 +1,28 @@
+.hero__section {
+  height: 90vh;
+  width: 100vw;
+  /* background: linear-gradient(
+    159.07deg,
+    #1755f3 13.83%,
+    #1755f3 65.14%,
+    #6bc8e6 117.48%
+  ); */
+  background-color: white;
+}
+
+.hero__ai {
+  background-color: var(--clr-light-black);
+}
+
+.wrapper__wrapper {
+  width: 100%;
+}
+/* NOTE: FIX CSS BELOW KINDA SOMEWHAT WORKS */
+
+/* .hero__logo__wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow-y: visible;
+  height: 150vh;
+} */

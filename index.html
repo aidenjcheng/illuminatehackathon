@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Illuminate Hackathon Thing</title>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
@@ -12,6 +12,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./src/style.css">
     <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/header.css">
+    <link rel="stylesheet" href="./src/util.css" />
+    <link rel="stylesheet" href="./src/faq.css" />
+
+    <script src="./src/lenis.js" type="module"></script>
+
   </head>
   <header class="header__section z-40">
     <div class="header__content">
@@ -46,6 +52,27 @@
         </div>
   </header>
   <body>
+    <section class="hero__section z-20 relative">
+      <div class="hero__content flex flex-col h-full justify-center gap-10">
+        <div  id="aibubble-container" class="hero">
+  
+        </div>
+  
+        <span class="hero__text flex justify-center flex-col flex-wrap content-center text-slate-950 light"><span class="hero text-center  text-6xl light">Take control of your mind</span><span class=" text-6xl text-center text-zinc-400 w-3/5 mx-auto hero">Cerebria makes tumor detection easy. Simply upload, submit, and get results in seconds.</span>
+        <br/>
+        <div class="hero flex justify-center cursor-pointer"> 
+        </div>
+        <div class="wrapper__wrapper">
+        <div class="hero__logo__wrapper z-20 absolute">
+          <img src="/s.svg" alt="logo thing">
+            
+            
+        </div>
+      </div>  
+      </div> 
+    </section>
 
+    
+  
   </body>
 </html>

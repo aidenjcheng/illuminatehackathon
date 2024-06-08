@@ -1,0 +1,57 @@
+:root {
+  --clr-light-black: #1d1d1f;
+  --clr-dark: #070a13;
+  --clr-slate400: #94a3b8;
+  --clr-slate600: #475569;
+  --clr-slate800: #1e293b;
+  --clr-rose: #e11d48;
+  --clr-light-blue: #09b1f1;
+  --clr-blue: #007fff;
+  --clr-white: #ffffff;
+  --clr-sand: #fbf0c2;
+  --clr-purple: #741bd4;
+  --clr-gray: #252525;
+  --clr-shading: rgba(25, 25, 25, 0.5);
+  --clr-light-shading: rgba(241, 241, 241, 0.7);
+  --clr-dark-bg: #1a1a1a;
+  --clr-light-gray: #7a7a7a;
+  --clr-border: #3b3a3a;
+  --clr-sec200: #f7f7f7;
+  --clr-slate700: #737373;
+  --clr-black: #000000;
+  --clr-darkmode: #131313;
+  --clr-light: #f4f4f4;
+  --clr-slate800: #b3b3b3;
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+.btn {
+  border-radius: 9999999px;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  padding-top: 0.68rem;
+  padding-bottom: 0.68rem;
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  font-size: 1rem;
+  font-family: satoshimedium;
+  box-shadow: -5px -2px 76px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -5px -2px 76px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px -2px 76px -6px rgba(0, 0, 0);
+}
