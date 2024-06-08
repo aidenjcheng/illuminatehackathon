@@ -6,6 +6,7 @@ HOW TO RUN THE WEBSITE:
 2. RUN THE WEBSITE:
    "npm run dev"
 
+<<<<<<< HEAD
 Creators: Kevin X + Aiden C, both in HS.
 
 Description:
@@ -17,6 +18,20 @@ It is an advanced AI-powered health tool. It is built around a Convolutional Neu
 
 Cerebria...
 
+=======
+Creators: Kevin X + Aiden C, both in HS. 
+
+
+Description:
+Cerebria is a brain tumor classifier. Upload an MRI scan of the brain and the website will return the result along with the confidence. The uploaded scan should include one brain MRI scan. Example uploads: 
+https://tinyurl.com/4vkkmswz
+https://tinyurl.com/ycy6jx5t
+
+
+It is an advanced AI-powered health tool. It is built around a Convolutional Neural Network (CNN) API, utilizing the ResNet50 architecture, and has been trained on a comprehensive dataset of over 20,000 images. Cerebria provides cutting-edge solutions for brain tumor detection by leveraging state-of-the-art technology.
+
+Cerebria...
+>>>>>>> refs/remotes/origin/main
 - Utilizes the ResNet50 architecture, a state-of-the-art convolutional neural network (CNN) fine-tuned for detecting and classifying brain tumors with high accuracy
 
 - Uses sophisticated image preprocessing steps like resizing, center cropping, and normalization to increase the model's accuracy in recognizing and classifying brain tumors
@@ -27,9 +42,16 @@ Cerebria...
 
 - Implements CORS policy to securely manage requests from various origins, ensuring reliable access to the API from different client-side applications.
 
+<<<<<<< HEAD
 _This entire project was programmed during the allotted time frame of the hackathon_
 
 This project has 3 parts. This Github repository is the frontend and this repository is the one to download to test the entire program.
+=======
+
+*This entire project was programmed during the allotted time frame of the hackathon*
+
+This project has 3 parts.  This Github repository is the frontend and this repository is the one to download to test the entire program. 
+>>>>>>> refs/remotes/origin/main
 The backend repository (responsible for making the API call): https://github.com/ephemeralwx/illuminateHackathonMLAPI
 The actual Machine Learning model was developed with google colab. I took inspiration from a previous notebook and modified the code to increase the # of classes and improve the accuracy. Here is a copy of the google colab project: https://github.com/ephemeralwx/mlmodel
 
@@ -40,3 +62,7 @@ Python Flask for the backend
 
 Dropbox link (videos and photos during the hackathon)
 https://www.dropbox.com/scl/fo/lep8jtcj4ef1nq2ukxc4s/AFV6d6QtjnQz5h4GoOt6w3Q?rlkey=d5nroep5ozblwox7tuh5s8gbn&st=v50sip2z&dl=0
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/main
