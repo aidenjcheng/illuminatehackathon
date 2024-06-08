@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+}
+body {
+  font-family: satoshiregular;
+  margin: 0;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 1.3rem;
+}
+@font-face {
+  font-family: "satoshiregular";
+  src: url("../public/fonts/Satoshi-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "satoshimedium";
+  src: url("../public/fonts/Satoshi-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "satoshibold";
+  src: url("../public/fonts/Satoshi-Bold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "satoshiblack";
+  src: url("../public/fonts/Satoshi-Black.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "satoshilight";
+  src: url("../public/fonts/Satoshi-Light.otf");
+  font-weight: 300;
+}
+.light {
+  font-family: satoshiregular;
+}
+
+.med {
+  font-family: satoshimedium;
+}
+
+.reg {
+  font-family: satoshiregular;
+}
+
+.bold {
+  font-family: satoshibold;
+}
+
+.black {
+  font-family: satoshiblack;
+}
