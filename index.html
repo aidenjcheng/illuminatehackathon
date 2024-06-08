@@ -13,7 +13,9 @@
     <script src="https://unpkg.com/split-type"></script>
 
     <script src="./src/lenis.js" type="module"></script>
+    <script src="./src/header.js" type="module"></script>
     <script src="./src/hero.js" type="module"></script>
+    <script src="./src/scrolltrigger.js" type="module"></script>
     <link rel="stylesheet" href="./src/index.css">
     <link rel="stylesheet" href="./src/style.css">
     <link rel="stylesheet" href="./src/header.css">
@@ -21,6 +23,10 @@
     <link rel="stylesheet" href="./src/hero.css" />
     <link rel="stylesheet" href="./src/faq.css" />
     <link rel="stylesheet" href="./src/animatedtext.css" />
+    <link rel="stylesheet" href="./src/info.css">
+    <link rel="stylesheet" href="./src/style.css">
+
+
 
   </head>
   <header class="header__section z-40">
@@ -84,7 +90,149 @@
       </div>
       </div>
     </section>
-
+    <section class="w-screen info__header flex flex-row justify-evenly info">
+      <div class="text-2xl w-1/3">
+        <span class="text-white">
+          Advanced Image Processing Techniques      </span>
+      </div>
+      <div class="text-lg w-1/3">
+        <span class=" info__subtext">
+          Employs sophisticated image preprocessing steps, including resizing, center cropping, and normalization, to prepare input images for analysis. <br>
+          This ensures that every scan is optimally conditioned for the neural network, enhancing the model's ability to accurately recognize and classify various types of brain tumors.
+        </span>
+      </div>
+    </section>
+    <section class="info__section info">
+      <div class="info__content flex flex-row">
+        <div class="info__demo__wrapper flex justify-center">
+          <canvas
+          id="cobe"
+          style="width: 500px; height: 500px"
+          width="1000"
+          height="1000"
+        ></canvas>
+    
+        <script type="module">
+          import createGlobe from "https://cdn.skypack.dev/cobe";
+    
+          let phi = 0;
+          let canvas = document.getElementById("cobe");
+    
+          const globe = createGlobe(canvas, {
+            devicePixelRatio: 2,
+            width: 1000,
+            height: 1000,
+            phi: 0,
+            theta: 0,
+            dark: 1,
+            diffuse: 1.2,
+            scale: 1,
+            mapSamples: 16000,
+            mapBrightness: 6,
+            baseColor: [1, 1, 1],
+            markerColor: [251 / 255, 100 / 255, 21 / 255],
+            glowColor: [1, 1, 1],
+            offset: [0, 0],
+            markers: [
+              { location: [14.5995, 120.9842], size: 0.03 },
+              { location: [19.076, 72.8777], size: 0.1 },
+              { location: [23.8103, 90.4125], size: 0.05 },
+              { location: [30.0444, 31.2357], size: 0.07 },
+              { location: [39.9042, 116.4074], size: 0.08 },
+              { location: [-23.5505, -46.6333], size: 0.1 },
+              { location: [19.4326, -99.1332], size: 0.1 },
+              { location: [40.7128, -74.006], size: 0.1 },
+              { location: [34.6937, 135.5022], size: 0.05 },
+              { location: [41.0082, 28.9784], size: 0.06 },
+            ],
+            onRender: (state) => {
+              state.phi = phi;
+              phi += 0.01;
+            },
+          });
+        </script>
+        </div>
+        <div class="info__text__wrapper gap-5">
+          <div class="info flex flex-row gap-5">
+            <div class="flex flex-col gap-5 items-center">
+              <div class="svg__wrapper w-14 h-14 flex justify-center items-center rounded-xl" id="svg__wrapper1">
+                <img src="/computer.svg" alt="Computer Chip Icon" class="w-8 h-8" id="computersvg">
+              </div>
+              <div class="rounded-full info__progressbar">
+                <div class="w-full h-full rounded-full" id="progressbar1">
+                </div>
+              </div>
+            </div>
+            <div class="w-4/5 text__wrapper">
+            <span class="info__text">
+              Upload Brain Image          </span>
+            <span class="info__subtext">
+              Begin by uploading a high-quality brain scan image through our user-friendly interface. Ensure the image is in a compatible format for accurate processing and analysis.
+            </span>
+            </div>
+          </div>
+  
+          <div class="info flex flex-row gap-5">
+            <div class="flex flex-col gap-5 items-center">
+              <div class="svg__wrapper w-14 h-14 flex justify-center items-center rounded-xl" id="svg__wrapper2">
+                <img src="/cloud.svg" alt="Cloud Icon" class="w-8 h-8" id="cloudsvg">
+              </div>
+              <div class="rounded-full info__progressbar">
+                <div class="w-full h-full rounded-full" id="progressbar2">
+                </div>
+              </div>
+            </div>
+            <div class="w-4/5 text__wrapper">
+            <span class="info__text">
+              Image Processing
+            </span>
+            <span class="info__subtext">
+              Our advanced image processing techniques will automatically resize, center crop, and normalize the uploaded image. This step optimizes the image for precise analysis by our neural network.
+            </span>
+            </div>
+          </div>
+  
+          <div class="info flex flex-row gap-5">
+            <div class="flex flex-col gap-5 items-center">
+              <div class="svg__wrapper w-14 h-14 flex justify-center items-center rounded-xl" id="svg__wrapper3">
+                <img src="/chip.svg" alt="Computer Chip Icon" class="w-8 h-8" id="chipsvg">
+              </div>
+              <div class="rounded-full info__progressbar">
+                <div class="w-full h-full rounded-full" id="progressbar3">
+                </div>
+              </div>
+            </div>
+            <div class="w-4/5 text__wrapper">
+            <span class="info__text">
+              Receive Predictions
+            </span>
+            <span class="info__subtext">
+              Once processed, our cutting-edge ResNet50 model will analyze the image to detect and classify potential brain tumors. The system will provide a detailed report with confidence scores for each possible diagnosis.
+            </span>
+            </div>
+          </div>
+  
+          <div class="info flex flex-row gap-5">
+            <div class="flex flex-col gap-5 items-center">
+              <div class="svg__wrapper w-14 h-14 flex justify-center items-center rounded-xl" id="svg__wrapper4">
+                <img src="/server.svg" alt="Server Icon" class="w-8 h-8" id="serversvg">
+              </div>
+            </div>
+            <div class="w-4/5 text__wrapper">
+            <span class="info__text">
+              Review and Act
+            </span>
+            <span class="info__subtext">
+              Review the detailed predictions and confidence scores provided by the system. Use these insights to make informed decisions about further medical consultations or interventions.
+            </span>
+            </div>
+          </div>
+          
+      </div>
+    </section>
+  
+  
+  
   
   </body>
 </html>
