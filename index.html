@@ -10,13 +10,17 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./src/style.css">
-    <link rel="stylesheet" href="./src/index.css">
-    <link rel="stylesheet" href="./src/header.css">
-    <link rel="stylesheet" href="./src/util.css" />
-    <link rel="stylesheet" href="./src/faq.css" />
+    <script src="https://unpkg.com/split-type"></script>
 
     <script src="./src/lenis.js" type="module"></script>
+    <script src="./src/hero.js" type="module"></script>
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/header.css">
+    <link rel="stylesheet" href="./src/util.css" />
+    <link rel="stylesheet" href="./src/hero.css" />
+    <link rel="stylesheet" href="./src/faq.css" />
+    <link rel="stylesheet" href="./src/animatedtext.css" />
 
   </head>
   <header class="header__section z-40">
@@ -71,8 +75,16 @@
       </div>  
       </div> 
     </section>
+    <section class="animatedtext__section" loading="lazy">
+      <div class="animatedtext__content">
+        <div class="new__wrapper">
+          <span class="new">
+  Cerebria is an advanced AI powered health tool developed by two innovative high school students. <br/><br/> It's built around a Convolutional Neural Network (CNN)  API, utilizing the ResNet50 architecture, and has been trained on a comprehensive dataset of over 20,000 images.<br/><br/> Cerebria provides cutting-edge solutions for brain tumor detection by leveraging state-of-art technology.
+          </span>
+      </div>
+      </div>
+    </section>
 
-    
   
   </body>
 </html>

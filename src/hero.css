@@ -19,10 +19,10 @@
 }
 /* NOTE: FIX CSS BELOW KINDA SOMEWHAT WORKS */
 
-/* .hero__logo__wrapper {
+.hero__logo__wrapper {
   width: 100vw;
   display: flex;
   justify-content: center;
   overflow-y: visible;
   height: 150vh;
-} */
+}
