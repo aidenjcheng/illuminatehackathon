@@ -7,8 +7,9 @@ HOW TO RUN THE WEBSITE:
    "npm run dev"
 
 
+*This entire project was programmed during the allotted time frame of the hackathon*
 
-This project has 3 parts. This Github repository is the frontend and this repository is the one to download to test the entire program. 
+This project has 3 parts.  This Github repository is the frontend and this repository is the one to download to test the entire program. 
 The backend repository (responsible for making the API call): https://github.com/ephemeralwx/illuminateHackathonMLAPI
 The actual Machine Learning model was developed with google colab. I took inspiration from a previous notebook and modified the code to increase the # of classes and improve the accuracy. Here is a copy of the google colab project: https://github.com/ephemeralwx/mlmodel
 
