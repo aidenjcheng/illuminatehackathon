@@ -6,6 +6,14 @@ HOW TO RUN THE WEBSITE:
 2. RUN THE WEBSITE:
    "npm run dev"
 
+Creators: Kevin X + Aiden C, both in HS. 
+
+Description:
+This project is a brain tumor classifier. Upload an MRI scan of the brain and the website will return the result along with the confidence. The uploaded scan should be of 1 brain. Example uploads: 
+https://tinyurl.com/4vkkmswz
+https://tinyurl.com/ycy6jx5t
+
+
 
 *This entire project was programmed during the allotted time frame of the hackathon*
 
