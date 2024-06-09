@@ -1,5 +1,8 @@
 HOW TO RUN THE WEBSITE:
 
+
+0. Clone the repository using this link: https://github.com/aidenjcheng/illuminatehackathon.git
+
 1. INSTALL VITE
    TYPE IN THE COMMAND PROMPT:
    "npm i vite@latest" (make sure you're using a node terminal)
