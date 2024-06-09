@@ -61,7 +61,7 @@ Flask Documentation |
 Kaggle |
 Framer Motion Documentation |
 shadcnui library |
-MagicUI library |
+MagicUI library
 
 
 Dropbox link (videos and photos during the hackathon)
