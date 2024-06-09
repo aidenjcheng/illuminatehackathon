@@ -98,3 +98,7 @@
 .animatedtext__content {
   height: 100%;
 }
+
+.bento__section {
+  padding-top: 10rem;
+}
