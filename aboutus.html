@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cerebria</title>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="./src/lenis.js"></script>
+    <script src="./src/hero.js" type="module"></script>
+    <script src="./src/demo.js"></script>
+    <script type="module" src="./src/main.tsx"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.0.93/build/spline-viewer.js"
+    ></script>
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/util.css" />
+    <link rel="stylesheet" href="./src/header.css" />
+    <link rel="stylesheet" href="./src/footer.css" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="./src/script.js"></script>
+  </head>
+  <body>
+    <section class="aboutus__section h-full w-full flex flex-col gap-0">
+      <div class="aiden__section m-auto flex flex-col">
+        <span class="aboutus__title bold"> ABOUT ME </span>
+        <span class="aboutus__aiden">
+          Hi, I'm Aiden. I'm a fifteen year old highschool student living on the
+          east coast 🏖️.<br /><br />
+          I worked primarily on the front-end development of this project.
+        </span>
+      </div>
+      <div
+        class="w-10 h-10 arrow__wrapper flex flex-col justify-center rounded-full mx-auto scale-125 relative"
+      >
+        <img src="/downarrow.svg" class="arrow mx-auto" alt="Scroll Down" />
+      </div>
+      <div class="aiden__section m-auto flex flex-col">
+        <span class="aboutus__title bold"> ABOUT ME </span>
+        <span class="aboutus__aiden">
+          Hi, I'm Kevin. I'm a fifteen year old highschool student living on the
+          east coast 🏖️.<br /><br />
+          I worked primarily on the back-end development of this project.
+        </span>
+      </div>
+    </section>
+  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: rgba(26, 26, 27.096);
+    }
+    .aboutus__section {
+      width: 100vw;
+      height: 200vh;
+    }
+    .aiden__section {
+      width: 50%;
+      height: 30%;
+    }
+    .aboutus__title {
+      font-style: capitalize;
+      color: #737373;
+      font-size: 1.2rem;
+    }
+    .aboutus__aiden {
+      color: white;
+      font-size: 2.5rem;
+    }
+
+    .arrow__wrapper {
+      background-color: #71717a;
+    }
+  </style>
+</html>
