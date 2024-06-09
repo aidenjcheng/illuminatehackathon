@@ -7,7 +7,7 @@ const toggleClass = "header__section__active";
 const targetScrollDistanceVH = 100;
 const logo = document.querySelector(".logosvgpath");
 const toggleClassLogo = "logosvgpath-active";
-const texts = document.querySelectorAll(".header__text"); // Renamed to 'texts' for clarity
+const texts = document.querySelectorAll(".header__text");
 const toggleClassText = "header__text-active";
 
 btn.addEventListener("click", function () {
@@ -53,7 +53,7 @@ xIcon.addEventListener("click", function () {
 });
 window.addEventListener("scroll", () => {
   const currentScroll = window.scrollY;
-  const thresholdInPixels = window.innerHeight * (targetScrollDistanceVH / 100); // Convert vh to pixels
+  const thresholdInPixels = window.innerHeight * (targetScrollDistanceVH / 100);
 
   if (currentScroll >= thresholdInPixels) {
     header.classList.add(toggleClass);
