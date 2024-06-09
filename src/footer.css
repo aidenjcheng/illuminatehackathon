@@ -1,0 +1,29 @@
+.footer__section {
+  height: 40vh;
+  width: 100vw;
+}
+
+.footer__content {
+  height: 100%;
+  width: 100%;
+}
+
+.footer__text {
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.footer__logo {
+  position: relative;
+}
+
+.footer__wrapper__wrapper {
+  width: 100%;
+}
+
+.footer__logo__wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  scale: 0.9;
+}
