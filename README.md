@@ -58,7 +58,11 @@ Python Flask for the backend
 Sources used:
 GSAP Documentation | 
 Flask Documentation |
-Kaggle 
+Kaggle |
+Framer Motion Documentation |
+shadcnui library |
+MagicUI library |
+
 
 Dropbox link (videos and photos during the hackathon)
 https://www.dropbox.com/scl/fo/lep8jtcj4ef1nq2ukxc4s/AFV6d6QtjnQz5h4GoOt6w3Q?rlkey=d5nroep5ozblwox7tuh5s8gbn&st=v50sip2z&dl=0
